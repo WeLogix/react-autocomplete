@@ -1,9 +1,10 @@
 {
-  "name": "ron-react-autocomplete",
+  "name": "@welogix/react-autocomplete",
   "version": "3.0.1",
   "description": "Autocomplete component for React",
   "main": "./lib/reactAutoComplete.js",
   "scripts": {
+    "build": "gulp build",
     "test": "make test"
   },
   "repository": {
@@ -15,21 +16,20 @@
     "autocomplete"
   ],
   "peerDependencies": {
-    "react": "~0.14.6",
-    "react-dom": "~0.14.6"
+    "react": "~0.14.6 || ^15.3.0",
+    "react-dom": "~0.14.6 || ^15.3.0"
   },
   "dependencies": {
-    "browser-sync": "^2.0.0-rc10",
-    "classnames": "^1.2.0",
-    "engine.io": "^1.5.1",
-    "socket.io-client": "^1.3.3"
+    "classnames": "^1.2.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.0.0-rc10",
+    "engine.io": "^1.5.1",
+    "socket.io-client": "^1.3.3",
     "6to5": "^2.11.0",
     "6to5-loader": "^2.0.0",
     "browser-sync": "^1.9.0",
     "del": "^1.1.1",
-    "eslint-jsx": "git+https://github.com/andreypopp/eslint#jsx",
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "1.0.1",
     "gulp-cache": "^0.2.2",
@@ -39,7 +39,6 @@
     "gulp-gh-pages": "^0.3.4",
     "gulp-htmlmin": "^0.2.0",
     "gulp-if": "^1.2.4",
-    "gulp-imagemin": "^1.0.1",
     "gulp-istanbul": "^0.3.1",
     "gulp-jshint": "^1.8.4",
     "gulp-less": "^1.3.6",
